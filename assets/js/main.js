@@ -4,6 +4,10 @@ const url = `https://pokeapi.co/api/v2/pokemon?offset=${offset}&limit=${limit}`;
 
 fetch(url)
   .then((response) => response.json())
-  .then((jsonBody) => console.log(jsonBody))
+  .then((jsonBody) => jsonBody.results)
+  .then((pokemonList) => {
+    debugger
+    console.log(pokemonList)
+  })
   .catch((error) => console.error(error))
   .finally(() => console.log("Completed Request"));
