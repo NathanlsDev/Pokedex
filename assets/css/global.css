@@ -14,7 +14,7 @@
 }
 
 body{
-  background: url(../img/pokemons-bg.png) center center / cover no-repeat fixed;
+  background: url(../img/pokemons-bg.png) center bottom / cover no-repeat fixed;
 }
 
 .content {
