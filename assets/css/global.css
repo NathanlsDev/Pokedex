@@ -1,19 +1,27 @@
 @import url(_colors.css);
+@import url(_return-button.css);
 
 * {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Press Start 2P', 'VT323', monospace, sans-serif;
   box-sizing: border-box;
+  overflow-x: hidden;
+  transition: all ease-in-out .2s;
+  scroll-behavior: smooth;
+  border: none;
+  ::-webkit-scrollbar {
+    display: none;
+  }
 }
 
 body{
-  background-color: var(--gray);
+  background: url(../img/pokemons-bg.png) center center / cover no-repeat fixed;
 }
 
 .content {
   width: 100vw;
-  height: 100vh;
+  min-height: 100vh;
   padding: 1rem;
-  background-color: var(--white);
+  background-color: var(--transparent);
 }
 .content h1 {
   color: var(--black);
