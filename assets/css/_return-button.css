@@ -1,0 +1,19 @@
+#btnTop{
+  display: none;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+}
+.top-button_style{
+  background: linear-gradient(red 45%, black 50%, white 55%);
+  border-radius: 50%;
+  width: 45px;
+  padding: .5rem;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+.top-button_style:active{
+  transform: scale(.8);
+}
